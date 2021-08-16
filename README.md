@@ -12,7 +12,7 @@ What this project got so far:
 Future prospects:
  - Using the algorithm to generate seamless closed paths for a race track generator.
 
-Theory and more information about the algorithm:
-https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/
-https://www.procjam.com/tutorials/wfc/
-https://www.boristhebrave.com/2020/04/13/wave-function-collapse-explained/
+<p>Theory and more information about the algorithm:
+<p>https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/
+<p>https://www.procjam.com/tutorials/wfc/
+<p>https://www.boristhebrave.com/2020/04/13/wave-function-collapse-explained/
