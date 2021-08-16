@@ -1,8 +1,6 @@
 # RaceTrack
-Prototype for a random race track generator, using gridmaps
-<p>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gWxspGblaWc/0.jpg)](https://www.youtube.com/watch?v=gWxspGblaWc)
-
+<p>Prototype for a random race track generator, using gridmaps
 <p>Check out our published games:
 https://pawn-games.itch.io/
 #godotengine #indiegames #indiedev
