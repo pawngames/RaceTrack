@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/closed_path/TrackGen.gd" type="Script" id=1]
+
+[sub_resource type="Curve3D" id=1]
+_data = {
+"points": PoolVector3Array( 0, 0, 0, 0, 0, 0, 15.6974, 0, 15.4643, 9.68774, 7.35115, 11.2712, -9.68774, -7.35115, -11.2712, 15.9577, 0, -15.8567, 0, 0, 0, 0, 0, 0, -16.1629, 0, -15.97, 0, 0, 0, 0, 0, 0, -16.0762, 0, 23.9405, 0, 0, 0, 0, 0, 0, 15.6974, 0, 15.4643 ),
+"tilts": PoolRealArray( 0, 0, 0, 0, 0 )
+}
+
+[node name="TrackGen" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Ref" type="Spatial" parent="."]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 55, 0 )
+far = 800.0
+
+[node name="Path" type="Path" parent="."]
+curve = SubResource( 1 )
+
+[node name="CSGPolygon" type="CSGPolygon" parent="."]
+invert_faces = true
+polygon = PoolVector2Array( -0.1, 0, 0, 0.1, 1, 0.1, 1.1, 0 )
+mode = 2
+path_node = NodePath("../Path")
+path_interval = 1.0
+path_rotation = 2
+path_local = true
+path_continuous_u = true
+path_joined = true
+smooth_faces = true

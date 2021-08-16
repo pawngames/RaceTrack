@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track.009.obj-5ef5ba7055ec79050ffbbef4a468848a.mesh"
+
+[deps]
+
+files=[ "res://.import/Track.009.obj-5ef5ba7055ec79050ffbbef4a468848a.mesh" ]
+
+source_file="res://assets/models/Track.009.obj"
+dest_files=[ "res://.import/Track.009.obj-5ef5ba7055ec79050ffbbef4a468848a.mesh", "res://.import/Track.009.obj-5ef5ba7055ec79050ffbbef4a468848a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
