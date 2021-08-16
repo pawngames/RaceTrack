@@ -6,6 +6,7 @@ https://pawn-games.itch.io/
 #godotengine #indiegames #indiedev
 
 What this project got so far:
+ - The process is documented on the code comments, did the best i could to try and explain it.
  - Tile analysis and rule generation, considering y axis rotation
  - Generator using  rules for seamless connections (still some problems but almost ok).
 
